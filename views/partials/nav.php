@@ -33,6 +33,9 @@
           <a href="/admin/posts" class="navbar-item">
             Posts
           </a>
+          <a href="/admin/users" class="navbar-item">
+            Users
+          </a>
 
         </div>
       </div>
@@ -42,7 +45,7 @@
       <?php if (auth()) : ?>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
-            <?=auth()->email?>
+            <?= auth()->email ?>
           </a>
 
           <div class="navbar-dropdown">
