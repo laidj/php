@@ -1,6 +1,6 @@
-<?php include __DIR__ . '/../partials/header.php' ?>
+<?php include __DIR__ . '/../partials/header.php' ?> 
 <div class="container">
-    <table class="table is-striped is-fullwidth">
+   <table class="table is-striped is-fullwidth">
         <tbody>
             <tr>
                 <th>Id</th>
@@ -15,6 +15,6 @@
                 <td><?=$post->body?></td>
             </tr>
         </tbody>
-    </table>
+   </table>
 </div>
-<?php include __DIR__ . '/../partials/footer.php' ?>
+<?php include __DIR__ . '/../partials/footer.php' ?> 

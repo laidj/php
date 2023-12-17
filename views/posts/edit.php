@@ -10,11 +10,11 @@
         <div class="field">
             <label class="label" for="body">Content</label>
             <div class="control">
-                <textarea class="textarea" placeholder="Some content here..." id="body" name="body"><?=$post->body?></textarea>
+                <textarea class="textarea" placeholder="Some content here . . ." id="body" name="body"><?=$post->body?></textarea>
             </div>
         </div>
         <div class="field">
-            <input type="submit" value="Update" class="button is-primary">
+            <input type="submit" value="Edit" class="button is-primary">
         </div>
     </form>
 </div>
