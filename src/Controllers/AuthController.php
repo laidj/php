@@ -14,7 +14,7 @@ class AuthController {
         } else {
             header('Location: /register');
         }
-        
+
     }
 
     function registerForm() {
@@ -34,7 +34,7 @@ class AuthController {
         } else{
             header('Location: /login');
         }
-      
+
     }
 
     function loginForm() {
