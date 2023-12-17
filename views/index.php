@@ -8,6 +8,7 @@
                         <p class="card-header-title">
                             <?= $post->title ?>
                         </p>
+
                     </header>
                     <div class="card-content">
                         <div class="content">
