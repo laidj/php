@@ -3,7 +3,10 @@
 use App\Exceptions\NotFoundException;
 use App\Router;
 
-require __DIR__ . '/../vendor/autoload.php';
+spl_autoload_register(function ($class){
+    $class = substr($class, 4);
+    require_once __DIR__ . "/../src/$class.php";
+});
 
 session_start();
 
